@@ -87,7 +87,6 @@ $app->register(App\Providers\AppServiceProvider::class);
 
 $app->configure('database');
 $app->configure('renqo_client_acl');
-$app->configure('microservice');
 
 /*
 |--------------------------------------------------------------------------
